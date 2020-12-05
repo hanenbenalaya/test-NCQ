@@ -4,23 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Test {
-	static void increase(int x , int[] y){
-	   	 
-		   y[x-1]++;
-		  
-	        }
-	 static  void increaseMax( int[] y){
-		 int valmax = Arrays.stream(y).max().getAsInt();
-         Arrays.fill(y,valmax);
-		         
-		       }
 	
-public static void main(String[] args) {
-		 Solution solution=new Solution();
-		int N=0  ;
-		int M=0 ; 
-		Scanner clavier = new Scanner(System.in);
-        
 		//saisir N  
 		    while ((N <1)|| (N>100)) { 
 			    System.out.print("Saisir l'entier N entre 1 et 100 : ");
